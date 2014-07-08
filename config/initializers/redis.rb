@@ -1,1 +1,1 @@
-$redis = Redis.new(host: 'localhost', port: 6379)
+$redis = Redis.new(host: '172.18.1.54', port: 6379)
