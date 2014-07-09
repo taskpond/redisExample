@@ -35,3 +35,5 @@ Migrating to CreateUsers (20140708083034)
   [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"  WHERE 1=0
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."id" IN (2)[0m
   [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."id" IN (1)
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."id" IN (2)

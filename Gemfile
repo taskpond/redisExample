@@ -40,3 +40,14 @@ gem 'spring',        group: :development
 
 gem 'redis'
 gem 'sidekiq'
+
+# A simple way to annotate ActiveRecord objects with properties that are stored in Redis instead of your relational database
+gem 'redis_props'
+# Object Oriented Keys for Redis to help with key naming
+# gem 'nest'
+# Object-hash mapping library for Redis
+# gem 'ohm'
+# Map redis type to ruby objects
+# gem 'redis-objects'
+# Relationships (e.g. friendships) backed by Redis.
+# gem 'amico'
